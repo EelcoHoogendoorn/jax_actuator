@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Test output (keep the plots referenced by the README)
+actuator/output/*
+!actuator/output/optimize_torque.png
+!actuator/output/optimize_traction.png
+!actuator/output/encoder_visualization.png
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Pytest
+.pytest_cache/
+
+# Conda
+*.egg

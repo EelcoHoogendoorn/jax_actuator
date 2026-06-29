@@ -1,0 +1,19 @@
+name: jax_actuator
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - python >= 3.12
+#  - python.app    # [osx]
+  - numpy
+  - scipy
+  - numpy-indexed
+  - matplotlib
+  - pytest
+  - einops
+  - imageio
+  - pip
+  - pip:
+    - jax
+    - chex
+    - evosax
